@@ -16,7 +16,7 @@ public class Hypotenuse {
 
         z = Math.sqrt((x*x) + (y*y));
 
-        System.out.println("The hypotenuse is : "+z);
+        System.out.println("The hypotenuse is : Z"+z);
         scanner.close();
     }
 }
