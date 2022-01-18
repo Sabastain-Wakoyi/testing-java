@@ -1,4 +1,4 @@
-public class Statements {
+public class IfStatements {
 
     public static void main(String[] args) {
         // if statement; this performs a block of code if it's condition evaluates to be true.
