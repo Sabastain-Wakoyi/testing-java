@@ -1,7 +1,7 @@
 public class arrays {
     public static void main(String[] args){
         //array is use to store multiple values in a single variable
-
+        //String[] = {"one", "two", "three"};
         String[] pears = new String[4];
         pears[0] = "white";
         pears[1] = "black";
