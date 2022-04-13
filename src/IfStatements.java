@@ -65,21 +65,21 @@ public class IfStatements {
 // })
 
 
-    fetch("cart.json").then(rsp=>rsp.json()).then(cart=>{
-        let totalPrice = 0;
-        for (i = 0; i < cart.length; ++i) {
-        totalPrice = Math.round(totalPrice) + (cart[i].price);
-        let tax = .0825
-        totalProduce = totalPrice * tax;
-        grandTotal = totalPrice + totalProduce
-
-
-
-        }
-        console.log(totalPrice)
-        console.log(totalProduce)
-        console.log(grandTotal)
-        })
+//    fetch("cart.json").then(rsp=>rsp.json()).then(cart=>{
+//        let totalPrice = 0;
+//        for (i = 0; i < cart.length; ++i) {
+//        totalPrice = Math.round(totalPrice) + (cart[i].price);
+//        let tax = .0825
+//        totalProduce = totalPrice * tax;
+//        grandTotal = totalPrice + totalProduce
+//
+//
+//
+//        }
+//        console.log(totalPrice)
+//        console.log(totalProduce)
+//        console.log(grandTotal)
+//        })
 
 //cart : the array of items in the cart
 //cart[i] : the item in the cart at the index i
@@ -95,14 +95,14 @@ public class IfStatements {
 
 
 
-        fetch("cart.json").then(rsp=>rsp.json()).then(cart=>{
-        var totalPrice = 0;
-        for (i = 0; i < cart.length; ++i) {
-        totalPrice +=cart[i];
-
-        }
-        console.log(totalPrice)
-        })
+//        fetch("cart.json").then(rsp=>rsp.json()).then(cart=>{
+//        var totalPrice = 0;
+//        for (i = 0; i < cart.length; ++i) {
+//        totalPrice +=cart[i];
+//
+//        }
+//        console.log(totalPrice)
+//        })
 
 //use this one
 // fetch("cart.json").then(rsp=>rsp.json()).then(cart=>{
@@ -219,3 +219,85 @@ public class IfStatements {
 
 
 
+    //fetch("cart.json").then(rsp=>rsp.json()).then(cart=>{
+/* pseudocode
+    // subtotal should be set to 0 so we can sum item prices to it
+    subTotal = 0
+    // taxtotal should be set to 0 so we can sum item tax to it if the item is taxable
+    taxTotal = 0
+
+    // we go through each item in the cart to look at them one by one
+    for the items in the cart {
+        // we are always going to add the raw price of the item
+        subTotal = subTotal + item.price
+        // if the item is taxable, we're going to add the tax for this item's price to the tax total
+        if (item.isTaxable) {
+            taxTotal = taxTotal + (item.price * .0825)
+        }
+
+    }
+
+    // grand total is subtotal + taxtotal
+    grandTotal = subTotal + taxTotal
+
+    // now we have subtotal, taxtotal, and grandtotal for use
+*/
+     //   })
+
+
+
+// //using fetch to read from the json file
+// fetch("cart.json").then(rsp => rsp.json()).then(cart => {
+//     fetch("coupons.json").then(rsp => rsp.json()).then(coupons =>{})
+//     let totalPrice = 0;
+//     let totalTaxable = 0;
+//     let totalTax = 0;
+//     let grandTotal = 0;
+//     let subTotal = 0;
+//     let taxTotal1 = 0;
+//     let greatTotal = 0;
+//
+//     for (i = 0; i < cart.length; ++i) {
+//         //cart : the array of items in the cart
+//         //cart[i] : the item in the cart at the index i
+//         //cart[i].price : the price of the item in the cart at the index i
+//         totalPrice = Math.round(totalPrice) + (cart[i].price);
+//         //tax value .0825 as given
+//         let tax = .0825;
+//         totalTax = totalPrice * tax;
+//         grandTotal = totalPrice + totalTax;
+//
+//
+//         //defined total items taxable
+//         totalTaxable = (totalTaxable) + (cart[i].isTaxable);
+//
+//         //subTotal prices of items Taxable
+//         if (cart[i].isTaxable) {
+//             subTotal = subTotal + (cart[i].price)
+//             //taxTotal1 represents items that are taxable
+//             taxTotal1 = taxTotal1 + (cart[i].price * .0825)
+//             //greatTotal represents the sum from both subTotal and taxTotal1
+//             greatTotal = subTotal + taxTotal1
+//
+//         }
+//
+//     }
+//     //prints out totalPrice before tax is added
+//     console.log(totalPrice)
+//     //totalTax prints out sub total tax before adding it to the totalPrice
+//     console.log(totalTax)
+//     //grandTotal prints out totalPrice plus totalTax
+//     console.log(grandTotal)
+//     //prints totalTaxable items
+//     console.log(totalTaxable)
+//     //prints out price of subTotal of Taxable items
+//     console.log(subTotal)
+//     //prints out taxTotal of taxable items
+//     console.log(taxTotal1)
+//     //prints out grandTotal of taxable items
+//     console.log(greatTotal)
+// })
+//
+//
+//
+//
