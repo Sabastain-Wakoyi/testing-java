@@ -10,8 +10,9 @@ public class StringRef {
        // int result  = name.indexOf("0");
         // boolean result = name.isEmpty();
        // String result = name.toUpperCase();
-        String result = name.toLowerCase();
-
+       // String result = name.toLowerCase();
+        // String result = name.trim();
+        String result = name.replace('i', 'a');
 
         System.out.println(result);
     }
