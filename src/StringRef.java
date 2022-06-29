@@ -6,6 +6,12 @@ public class StringRef {
         String name = "Jevi";
        // boolean result = name.equals("Jevi");
        // int result = name.length();
+        // char result = name .charAt(0);
+       // int result  = name.indexOf("0");
+        // boolean result = name.isEmpty();
+       // String result = name.toUpperCase();
+        String result = name.toLowerCase();
+
 
         System.out.println(result);
     }
