@@ -1,8 +1,8 @@
 public class arrays {
-    public static void main(String[] args){
+    public static void main(StringRef[] args){
         //array is used to store multiple values in a single variable
         //String[] = {"one", "two", "three"};
-        String[] pears = new String[4];
+        StringRef[] pears = new StringRef[4];
         pears[0] = "white";
         pears[1] = "black";
         pears[2] = "brown";

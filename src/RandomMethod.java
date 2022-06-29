@@ -1,7 +1,7 @@
 import  java.util.Random;
 
 public class RandomMethod {
-    public static void main(String[] args) {
+    public static void main(StringRef[] args) {
 
         Random random = new Random();
         int x = random.nextInt(6)+1;

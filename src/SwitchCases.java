@@ -1,8 +1,8 @@
 public class SwitchCases {
-    public static void main(String[] args) {
+    public static void main(StringRef[] args) {
         // a switch is a statement that allows a variable to be tested for equality against a list of values
 
-        String day = "Friday";
+        StringRef day = "Friday";
         switch (day){
             case "Sunday":
                 System.out.println("It is Sunday");

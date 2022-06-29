@@ -1,6 +1,6 @@
 public class Personal_Intro {
 
-        public static void main(String[] args){
+        public static void main(StringRef[] args){
 
             // before we declare a variable, we think of the data type we want to assign
             // to the variable is it ;
@@ -41,7 +41,7 @@ public class Personal_Intro {
             //String
             //note that since String is a reference data type, it starts with a capital letter
             // All reference data types in Java starts with a capital letter
-            String name = "Mbenge";
+            StringRef name = "Mbenge";
             System.out.println(name);
             System.out.println("Welcome to " +name);
 
@@ -50,9 +50,9 @@ public class Personal_Intro {
 
 
             //switching two variables
-            String t = "water";
-            String h = "Kool-Aid";
-            String temp; // temp is a temporarily variable
+            StringRef t = "water";
+            StringRef h = "Kool-Aid";
+            StringRef temp; // temp is a temporarily variable
             temp = t;
             t = h;
             h = temp;

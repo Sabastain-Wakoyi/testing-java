@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 public class NestedLoop {
-    public static void main(String[] args) {
+    public static void main(StringRef[] args) {
         //Nested loops = a loop inside of a loop
         Scanner scanner = new Scanner(System.in);
         int rows;
         int columns;
-        String symbol = "";
+        StringRef symbol = "";
 
         System.out.println("Enter # of rows: ");
         rows = scanner.nextInt();

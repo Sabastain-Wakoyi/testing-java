@@ -2,9 +2,9 @@
 import javax.swing.JOptionPane;
 public class GUIApp {
 
-    public static void main(String[] args) {
+    public static void main(StringRef[] args) {
 
-        String name = JOptionPane.showInputDialog("Enter your name");
+        StringRef name = JOptionPane.showInputDialog("Enter your name");
         JOptionPane.showMessageDialog(null,"Hello " +name);
 
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));

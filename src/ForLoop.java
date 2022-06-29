@@ -1,5 +1,5 @@
 public class ForLoop {
-    public static void main(String[] args) {
+    public static void main(StringRef[] args) {
         //for loop executes a block of code a limited amount of times
         // i is index
         for(int i = 0; i<=10; i++){

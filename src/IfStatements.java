@@ -1,6 +1,6 @@
 public class IfStatements {
 
-    public static void main(String[] args) {
+    public static void main(StringRef[] args) {
         // if statement; this performs a block of code if it's condition evaluates to be true.
 
         int age = 5;
