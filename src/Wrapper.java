@@ -20,6 +20,7 @@ public class Wrapper {
         Character b = '@';
         Integer c = 123;
         Double d = 3.14;
+        String e = "Jevi";
 
     }
 }
