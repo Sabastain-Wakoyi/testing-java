@@ -22,5 +22,8 @@ public class Wrapper {
         Double d = 3.14;
         String e = "Jevi";
 
+        if (a== true) {
+            System.out.println("This is true");
+        }
     }
 }
