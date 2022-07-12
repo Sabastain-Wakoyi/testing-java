@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class ArrayList {
     //Arraylist = a resizable array
     //Arraylist = Elements can be added and removed after compilation phase
