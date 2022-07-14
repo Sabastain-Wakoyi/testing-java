@@ -7,8 +7,8 @@ public class Method {
         String name = "Jevian";
         hello(name);
 
-      static  void hello() {
-            System.out.println("Hello");
+      static  void hello(String name) {
+            System.out.println("Hello " + name);
         }
 
     }
