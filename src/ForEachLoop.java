@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class ForEachLoop {
 
     public static void main(String[] args){
@@ -5,7 +6,9 @@ public class ForEachLoop {
         // in an array/collection
         //for-each loop is less steps, more readable and disadvantageous that it's less flexible
 
-        String[] animals = {"dog", "dog", "rat", "bird"};
+       // String[] animals = {"dog", "dog", "rat", "bird"};
+        ArrayList<String> animals = new ArrayList<String>();
+
         for (String i : animals) {
             System.out.println(i);
         }
