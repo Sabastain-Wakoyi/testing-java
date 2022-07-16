@@ -6,10 +6,9 @@ public class Method {
         //int y = 8;
         String name = "Jevian";
         hello(name);
+    }
 
-      static  void hello(String name) {
-            System.out.println("Hello " + name);
-        }
-
+    static  void hello(String name) {
+        System.out.println("Hello " + name);
     }
 }
