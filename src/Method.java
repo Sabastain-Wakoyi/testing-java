@@ -4,11 +4,13 @@ public class Method {
 
         //int x = 7;
         //int y = 8;
-        String name = "Jevian";
-        hello(name);
+//        String name = "Jevian";
+//        int age = 21;
+//        hello(name);
     }
 
-    static  void hello(String name) {
-        System.out.println("Hello " + name);
+    static  void hello(String name, int age) {
+//        System.out.println("Hello " + name);
+//        System.out.println("Hello " + age);
     }
 }
