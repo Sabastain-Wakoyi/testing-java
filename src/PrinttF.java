@@ -13,8 +13,8 @@ public class PrinttF {
         System.out.printf("This is a format string", 123);
         System.out.printf("%b", myBoolean);
         System.out.printf("%c", myChar);
-        System.out.printf("%d", myDouble);
-        System.out.printf("%d", myDouble);
-        System.out.printf("%d", myDouble);
+        System.out.printf("%s", myString);
+        System.out.printf("%d", myInt);
+
     }
 }
