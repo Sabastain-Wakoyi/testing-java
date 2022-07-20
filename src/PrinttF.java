@@ -5,6 +5,10 @@ public class PrinttF {
         // two arguments = format string + (object/variable/value)
         //% [flags] [precision] [width] [conversion-character]
 
+        boolean myBoolean = true;
+        char myChar = '@';
+        String myString = "Jevian";
+        int myInt =
         System.out.printf("This is a format string", 123);
     }
 }
