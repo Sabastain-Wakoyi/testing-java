@@ -10,11 +10,13 @@ public class PrinttF {
         String myString = "Jevian";
         int myInt = 100;
         double myDouble = 1000;
-        System.out.printf("This is a format string", 123);
+
+        //[Conversion]
         System.out.printf("%b", myBoolean);
         System.out.printf("%c", myChar);
         System.out.printf("%s", myString);
         System.out.printf("%d", myInt);
+        System.out.printf("%f", myDouble);
 
     }
 }
