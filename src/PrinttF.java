@@ -8,7 +8,8 @@ public class PrinttF {
         boolean myBoolean = true;
         char myChar = '@';
         String myString = "Jevian";
-        int myInt =
+        int myInt = 100;
+        double myDouble = 1000;
         System.out.printf("This is a format string", 123);
     }
 }
