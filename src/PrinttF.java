@@ -22,7 +22,8 @@ public class PrinttF {
         //minimum number of characters to be written as output
         System.out.printf("Hello %", myString);
 
-        //
-
+        //[precision]
+        //sets number of digits of precision when outputting floating-point values
+        //System.out.printf("You have this much money %.2f",myDouble);
     }
 }
