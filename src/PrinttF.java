@@ -26,6 +26,9 @@ public class PrinttF {
         //sets number of digits of precision when outputting floating-point values
         //System.out.printf("You have this much money %.2f",myDouble);
 
-
+        //[flags]
+        //adds an effect to output based on the flag added to format specifier
+        //-: left-justify
+        //+: output a plus (+) or minus (-) sign for a numeric value
     }
 }
