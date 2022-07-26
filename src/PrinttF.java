@@ -28,7 +28,9 @@ public class PrinttF {
 
         //[flags]
         //adds an effect to output based on the flag added to format specifier
-        //-: left-justify
-        //+: output a plus (+) or minus (-) sign for a numeric value
+        //- : left-justify
+        //+ : output a plus (+) or minus (-) sign for a numeric value
+        //0 : numeric values are zero-padded
+        //, : comma grouping separator if numbers > 1000
     }
 }
