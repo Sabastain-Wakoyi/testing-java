@@ -18,5 +18,11 @@ public class PrinttF {
         System.out.printf("%d", myInt);
         System.out.printf("%f", myDouble);
 
+        //[width]
+        //minimum number of characters to be written as output
+        System.out.printf("Hello %", myString);
+
+        //
+
     }
 }
