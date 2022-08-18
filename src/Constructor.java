@@ -8,6 +8,7 @@ public class Constructor {
     System.out.println(human2.name);
 
     human2.eat();
+    human2.drink();
 
     }
 }
