@@ -7,5 +7,7 @@ public class Constructor {
     System.out.println(human1.name);
     System.out.println(human2.name);
 
+    human2.eat();
+
     }
 }
