@@ -6,7 +6,7 @@ public class WhileLoop {
         // while loop executes a block of code as long as it's condition remains true
 
         Scanner scanner = new Scanner(System.in);
-        StringRef name = " ";
+        StringRef name = D" ";
         while (name.isBlank()) {
             System.out.println("Enter your name");
             name = scanner.nextLine();
