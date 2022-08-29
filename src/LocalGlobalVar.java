@@ -5,5 +5,8 @@ public class LocalGlobalVar {
 
         //global variables are declared outside a method, but within a class
         //and are visible to all parts of a class
+
+        DiceRoller diceRoller = new DiceRoller();
+
     }
 }
