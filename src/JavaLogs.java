@@ -10,6 +10,9 @@ public class JavaLogs {
     public void flush() {
         super.flush();
     }
-
+    @Override
+    public void close() throws SecurityException {
+        super.close();
+    }
 
 }
