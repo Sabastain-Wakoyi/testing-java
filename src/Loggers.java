@@ -24,4 +24,14 @@ public class Loggers {
             //setting custom filter for FileHandler
             fileHandler.setFilter(new MyFilter());
             logger.addHandler(fileHandler);
+            for(int i=0; i<1000; i++){
+                //logging messages
+                logger.log(Level.INFO, "Msg"+i);
+            }
+
+            logger.log(Level.CONFIG, "Config data");
+        } catch (SecurityException | IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
