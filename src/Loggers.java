@@ -1,9 +1,6 @@
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.logging.ConsoleHandler;
-import java.util.logging.Level;
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
+import java.util.logging.*;
 
 public class Loggers {
 
@@ -19,4 +16,12 @@ public class Loggers {
         logger.addHandler(new ConsoleHandler());
         //adding custom handler
         logger.addHandler(new MyHandler());
+
+        try {
+            //FileHandler file name with max size and number of log files limit
+            Handler fileHandler = new FileHandler("/Users/pankaj/tmp/logger.log", 2000, 5);
+            fileHandler.setFormatter(new MyFormatter());
+            //setting custom filter for FileHandler
+            fileHandler.setFilter(new MyFilter());
+            logger.addHandler(fileHandler);
 }
