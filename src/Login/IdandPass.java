@@ -11,7 +11,7 @@ public class IdandPass {
         logininfo.put("JV","EXEC123");
     }
 
-    HashMap getlogininfo(){
+    protected HashMap getlogininfo(){
         return logininfo;
     }
 }
